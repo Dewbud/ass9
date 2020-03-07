@@ -1,0 +1,16 @@
+Programming Assignment:
+Download and run the simple python implementation of RSA from:
+https://gist.github.com/JonCooperWorks/5314103#filersa-py
+and answer the following questions:
+a) Run the program and enter as prime numbers 17 and 19. What is the public key and the private key?
+Your public key is  (73, 323)  and your private key is  (217, 323)
+
+b) Give a brief explanation (less than a paragraph) of the following functions from the python code:
+-gcd(a, b) (line 14) greatest common denominator
+-multiplicative_inverse(e, phi) (line 22) 8 -> 1/8
+-is_prime(num) (line 49) x<2 || x%2 || sqrt(x/2) fast-ish prime finding
+
+c) Explain differences and similarities between the RSA algorithm discussed in pages 685-686 and the
+implementation found in the code: generate_keypair (line 59), encrypt(line 86), decrypt(line 94)
+No CA
+encryption is done character-wise instead of block-wise

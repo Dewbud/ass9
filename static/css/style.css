@@ -1,0 +1,19 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+html, body {
+    background-color: var(--gray);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+#main {
+    background-color: var(--white);
+    margin: auto;
+}
+
+#main-nav {
+    margin: 0 -15px 15px -15px;
+}
